@@ -1,0 +1,19 @@
+# Semana 8 – Automatización de despliegue backend con Docker y PostgreSQL
+
+## 🔍 Introducción
+
+En esta práctica aprendí a automatizar el despliegue de una aplicación backend utilizando Docker, Docker Compose, PostgreSQL y pgAdmin.
+
+## ⚙️ Configuración de servicios
+
+### PostgreSQL y pgAdmin
+- Se creó un servicio de base de datos con persistencia usando volúmenes.
+- pgAdmin se configuró para visualizar y administrar la base de datos.
+
+### Backend
+- Se construyó la imagen de la app usando un Dockerfile con multi-stage build.
+- La aplicación se conectó correctamente a PostgreSQL mediante variables de entorno.
+
+
+
+
